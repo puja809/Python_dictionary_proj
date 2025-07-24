@@ -1,2 +1,1 @@
-# Python_dictionary_proj
-Python Dictionary Projects:
+#This repo consists of Python Projects for the topic dictionary.
