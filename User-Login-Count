@@ -1,0 +1,14 @@
+#Create a login history of the users which will contain the count of the no.of times the given users logged in
+#For this I am taking the users in the form of a list:
+# User Logins:
+print('Enter the users in space seperated string:')
+l=list(map(str.capitalize,input().split()))
+d={}
+for i in l:
+    d.setdefault(i,0)
+
+for i in l:
+    if i in d.keys():
+        d[i]+=1
+
+print('The login details of each users:',d )
